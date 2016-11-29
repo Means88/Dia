@@ -1,0 +1,13 @@
+GEM
+  remote: https://gems.ruby-china.org/
+  specs:
+    antlr3 (1.10.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  antlr3
+
+BUNDLED WITH
+   1.13.6
