@@ -1,5 +1,4 @@
-require './Digit'
+require './CalculatorParser'
 
-lexer = Digit::Lexer.new('123')
-tokens = ANTLR3::CommonTokenStream.new(lexer)
-print(tokens)
+parser = Calculator::Parser.new('1 + 1')
+print(parser.expression)
